@@ -26,9 +26,7 @@ playerTwo  = "scissors";
 }
 
 console.log("contestant 2 played" + playerTwo + "!");
-# rock over scissors
-# paper over rock
-# scissors over paper
+
 
 
 if (playerOne === playerTwo) {
