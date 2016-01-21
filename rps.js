@@ -37,42 +37,42 @@ if (playerOne === playerTwo) {
 
 else if (playerOne === "rock" && playerTwo === "scissors") {
   playerOneScore = playerOneScore + 1
-  console.log("Player one has won " + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds" )
+  console.log("Player one has won " + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds" );
 
 }
 
 else if (playerOne === "rock" && playerTwo === "paper") {
   playerTwoScore = playerTwoScore + 1
-  console.log("Player one has won" + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds")
+  console.log("Player one has won" + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds");
 }
 
 else if (playerOne === "paper" && playerTwo === "rock") {
   playerOneScore = playerOneScore + 1
-  console.log("Player one has won " + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds" )
+  console.log("Player one has won " + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds" );
 }
 
 
 
 else if (playerOne === "paper" && playerTwo === "scissors") {
   playerTwoScore = playerTwoScore + 1
-  console.log("Player one has won" + playerOneScore + " rounds and player two has won " + playerTwoScore+ " rounds")
+  console.log("Player one has won" + playerOneScore + " rounds and player two has won " + playerTwoScore+ " rounds");
 }
 
 else if (playerOne === "scissors" && playerTwo === "paper") {
   playerOneScore = playerOneScore + 1
-  console.log("Player one has won " + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds" )
+  console.log("Player one has won " + playerOneScore + " rounds and player two has won " + playerTwoScore + " rounds" );
 
 }
 
 else if (playerOne === "scissors" && playerTwo === "rock") {
   playerTwoScore = playerTwoScore + 1
-  console.log("Player one has won" + playerOneScore + " rounds and player two has won " + playerTwoScore+ " rounds")
+  console.log("Player one has won" + playerOneScore + " rounds and player two has won " + playerTwoScore+ " rounds");
 }
 
 if (playerOneScore === 3) {
-  console.log("player one wins!")
+  console.log("player one wins!");
 }
 
 else (playerTwoScore === 3){
-  console.log("player two wins!")
+  console.log("player two wins!");
 }
